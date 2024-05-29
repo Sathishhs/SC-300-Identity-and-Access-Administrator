@@ -18,37 +18,37 @@ As an additional layer of security, you need to enable and configure your Azure 
 
 #### Task 1 - Configure the policy
 
-1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a Global administrator account.
+1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a conditional access administrator account.
 
-2. Open the portal menu and then select **Azure Active Directory**.
+3. Open the portal menu and then select **Azure Active Directory**.
 
-3. On the Azure Active Directory page, under **Manage**, select **Security**.
+4. On the Azure Active Directory page, under **Manage**, select **Security**.
 
-4. On the Security page, in the left navigation, select **Identity protection**.
+5. On the Security page, in the left navigation, select **Identity protection**.
 
-5. In the Identity protection page, in the left navigation, select **User risk policy**.
+6. In the Identity protection page, in the left navigation, select **User risk policy**.
 
     ![Screen image displaying the User risk policy page and highlighted browsing path](./media/lp2-mod4-browse-to-identity-protection.png)
 
-6. Under **Assignments**, select **All users** and review the available options.
+7. Under **Assignments**, select **All users** and review the available options.
 
-7. You can select from **All users** or **Select individuals and groups** if limiting your rollout.
+8. You can select from **All users** or **Select individuals and groups** if limiting your rollout.
 
-8. Additionally, you can choose to exclude users from the policy.
+9. Additionally, you can choose to exclude users from the policy.
 
-9. Under **User risk**, select **Low and above**.
+10. Under **User risk**, select **Low and above**.
 
-10. In the User risk pane, select **High** and then select **Done**.
+11. In the User risk pane, select **High** and then select **Done**.
 
-11. Under **Controls** > **Access**, select **Block access**.
+12. Under **Controls** > **Access**, select **Block access**.
 
-12. In the Access pane, review the available options.
+13. In the Access pane, review the available options.
 
     **Tip** - Microsoft's recommendation is to Allow access and Require password change.
 
-13. Select the **Require password change** check box and then select **Done**.
+14. Select the **Require password change** check box and then select **Done**.
 
-14. Under **Policy enforcement**, select **On** and then select **Save**.
+15. Under **Policy enforcement**, select **On** and then select **Save**.
 
 #### Task 2 - Enable Sign-in risk policy
 
